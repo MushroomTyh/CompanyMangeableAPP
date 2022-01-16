@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>common/checkbox_checked_fill</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,2 C17.5228475,2 22,6.4771525 22,12 C22,17.5228475 17.5228475,22 12,22 C6.4771525,22 2,17.5228475 2,12 C2,6.4771525 6.4771525,2 12,2 Z M16.9042861,8.14515711 L10.2484692,14.8035221 L7.09557981,11.6494257 C6.90211106,11.456031 6.58849627,11.456091 6.39510156,11.6495597 C6.20161113,11.8431242 6.20161113,12.1568758 6.39510156,12.3504403 L9.89829714,15.8549769 C10.0917659,16.0483717 10.4053807,16.0483116 10.5987754,15.8548429 L17.6048984,8.84603764 C17.7768899,8.6739803 17.7960001,8.40696038 17.6622289,8.21380025 L17.6047644,8.14502305 C17.4112956,7.95162834 17.0976808,7.95168836 16.9042861,8.14515711 Z" id="path-1"></path>
+    </defs>
+    <g id="common/checkbox_checked_fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <use id="蒙版" fill="#00c696" xlink:href="#path-1"></use>
+    </g>
+</svg>

@@ -1,0 +1,8 @@
+.App {
+  background: #efefef;
+  min-height: 100vh;
+}
+
+.itemBox {
+  margin-top: 1.25em;
+}

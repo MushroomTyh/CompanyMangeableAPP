@@ -1,0 +1,6 @@
+{
+    "sdkName": "wecode-react",
+    "sdkVersion": "1.0.0",
+    "debug": false,
+    "eslint": true
+}

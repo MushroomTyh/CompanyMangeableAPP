@@ -1,0 +1,121 @@
+
+.content {
+  padding: 10px;
+  background-color: #fff;
+  height:100%;
+}
+
+/* .cells{
+  height: 120px;
+  margin-top: 0 !important;
+} */
+
+.avatars {
+  height: 80px;
+  border-radius: 50%;
+  width: 80px;
+  background: #d6b1f7;
+  color: #fff;
+  font-size: 25px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.userName {
+  font-size: 20px;
+  color: #000000;
+  letter-spacing: 0;
+  font-weight: bold;
+}
+
+.userCode {
+  font-size: 16px;
+}
+
+.userDept {
+  font-size: 14px;
+  color: #333333;
+  letter-spacing: 0;
+  margin-top: 10px;
+}
+
+.bag-hover-honorStar{
+  background: url(./TO_DELETE/honorStar1.jpg) no-repeat;
+  background-size:100% 100%;
+}
+
+.bag-hover-futureStars{
+  background: url(./TO_DELETE/futureStars1.jpg) no-repeat;
+  background-size:100% 100%;
+}
+
+.bag-hover-youthStar{
+  background: url(./TO_DELETE/youthStar1.jpg) no-repeat;
+  background-size:100% 100%;
+}
+
+/* .bag-hover-engineerStar{
+  background: url(./TO_DELETE/engineerStar.jpg) no-repeat;
+  background-size:100% 100%;
+} */
+
+.title{
+  font-size: 20px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+
+.department{
+  opacity: 0.7;
+  font-size: 12px !important;
+  color: #FFFFFF !important;
+  letter-spacing: 0;
+}
+
+.time{
+  opacity: 0.7;
+  font-size: 12px !important;
+  color: #FFFFFF !important;
+  letter-spacing: 0;
+}
+
+/* .emptyBag {
+  background-image: url(./TO_DELETE/empty.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin: 85px auto 0;
+  border: none;
+} */
+
+.tips{
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.parenthesis{
+  text-align: center;
+  font-size: 12px;
+  color: #999999;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.hovers{
+  display: none;
+}
+
+.emptyHover{
+  display: block;
+}
+
+.size
+{
+ height: 130px;
+ margin: 40px auto 0;
+}
+

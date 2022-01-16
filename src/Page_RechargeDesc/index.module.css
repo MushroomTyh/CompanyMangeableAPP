@@ -1,0 +1,36 @@
+
+.body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: #fff;
+    height: 100%;
+    font-size: 14px;
+}
+
+.paySuccessIcon {
+    background: url(./img/checkbox_checked_success.svg) no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    margin-top: 24px;
+}
+
+.paySuccess {
+    color: #333333;
+}
+
+.dormPay {
+    margin-top: 90px;
+}
+
+.amount {
+    color: #333333;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.viewRecords {
+    background: #F9F9F9;
+    color: #999;
+}

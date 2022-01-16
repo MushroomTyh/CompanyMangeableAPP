@@ -1,0 +1,102 @@
+<!DOCTYPE >
+<html>
+	<html lang="ch">
+	<head>
+		<title>注册</title>
+		<script type="text/javascript">
+			function  fun(){
+				alert("默认代表您同意《用户服务协议》和《隐私政策》");
+			}
+			function  onclickfun(){
+				var  nameobj=document.getElementById("zcname");
+				var  nametext=nameobj.value;
+				var  namespanobj=document.getElementById("namespan");
+				var  natt=/^\w{3,5}$/;
+				if(natt.test(nametext)!=true){
+					namespanobj.innerHTML="用户名不合要求";
+				}
+				var  passobj=document.getElementById("zcpass");
+				var  passtext=passobj.value;
+				var  passspanobj=document.getElementById("passspan");
+				var  patt=/^\w{6,12}$/;
+				if(patt.test(passtext)!=true){
+				passspanobj.innerHTML="密码不合要求";
+			}
+				var  passrobj=document.getElementById("zcrpass");
+				var  passrtext=passrobj.value;
+				var passrspanobj=document.getElementById("passrspan");
+				if(passrtext!=passtext){
+					passrspanobj.innerHTML="密码不正确";
+				}
+
+			}
+			// function  onclick()
+			// {
+			// 	wind
+			// }
+		</script>
+		<meta charset="utf-8">
+		<style type="text/css">
+			#lunkuo{
+				position: absolute;
+				top: 20%;/*顶部到元素*/
+				left:5%;
+				width: 100%;
+				height:2000px;
+				margin-top:-200;/*边缘到底部*/		
+				background-color: #a1caf0;
+				text-align-last: center;
+				filter:alpha(Opacity=60);
+				moz-opacity:0.6;
+				opacity: 0.6;
+				font-size: 40px;
+			}
+            #zhuce{
+				background-color: pink;
+				border-radius:10px;
+             	border:0;/*边框宽度0*/
+            	height:50px;
+             	width:90px;
+            	padding:5px 10px;/*上下填充10 左右5*/
+            	font-size: 20px;
+			}
+			#lunkuo input{
+				font-size: 60px;
+				text-align: center;
+				border-radius: 1px;
+				height: 80px;
+				margin-bottom: 0px; 
+				width: 750px;
+			}
+		</style>
+	</head>
+	<body  onload="fun()">
+		<div id="lunkuo">
+			<h1>注册</h1><br />
+			<form action="http://101.200.175.152:18080/user"  method="post">
+				
+                学号:<input type="text" name="1" id="zcname"  placeholder="请输入学号"/><span id="namespan"style="color: red;"></span><br /><br />		
+				
+				学院:<input type="text" name="3" id="zcpass" placeholder="请输入学院" /><span id="passspan"style="color: red;"></span><br /><br />				
+			
+				职位:<input type="text" name="4" id="zcrpass" placeholder="请输入职位" /><span id="passrspan"style="color: red;"></span><br /><br />
+				
+				班级:<input type="text" name="6" id="zcemail" placeholder="请输入班级" /><br /><br />
+				
+				邮箱:<input type="text" name="5" id="zcpgone" placeholder="请输入邮箱" /><br /><br />
+
+                手机号:<input type="tel" name="7" id="zcrpass" placeholder="请输入手机号" /><span id="passrspan"style="color: red;"></span><br /><br />
+
+                专业:<input type="text" name="8" id="zcrpass" placeholder="请输入专业" /><span id="passrspan"style="color: red;"></span><br /><br />
+
+                名字:<input type="text" name="9" id="zcrpass" placeholder="请输入名字" /><span id="passrspan"style="color: red;"></span><br /><br />
+
+                年龄:<input type="text" name="10" id="zcrpass" placeholder="请输入年龄" /><span id="passrspan"style="color: red;"></span><br /><br />
+				
+                密码:<input type="password" name="2" id="zcrpass" placeholder="请输入密码" /><span id="passrspan"style="color: red;"></span><br /><br />
+				<input type="submit" name="zhuce" id="zhuce" value="注册" onclick=""/>
+			</form>
+			
+		</div>
+	</body>
+</html>

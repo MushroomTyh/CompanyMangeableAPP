@@ -1,0 +1,36 @@
+{
+  "pages": {
+    "./Page_Home/index": "/",
+    "./Page_Desc/index": "/desc",
+    "./Page_Refresh/index": "/refresh",
+    "./Page_NavigateTo/index": "/navigateto",
+    "./Page_NavigateTo/page": "/navigateto/page/:id",
+    "./Page_web/index": "/web",
+    "./Page_sf/index": "/sf",
+    "./Page_money/index": "/money",
+    "./Page_other/index": "/other",
+    "./Page_czjf/index": "/czjf",
+    "./Page_shoukuan/index": "/sk",
+    "./Page_fukuan/index": "/fk",
+    "./Page_saoesao/index": "/saoesao",
+
+    
+    "./Page_login/index":"/login",
+      "./Page_reg/index":"/reg",
+    "./Page_Success/index":"/success",
+    "./Page_RechargeRecord/index": "/rechargeRecord",
+    "./Page_RechargeDesc/index": "/rechargeDesc",
+    "./Page_serve/index": "/serve",
+      "./Page_leave/index":"/leave",
+      "./Page_result/index":"/result"
+
+  },
+  "runtime": {
+    "sdkName": "wecode-react",
+    "sdkVersion": "1.0.0",
+    "debug": false,
+    "ejected": false,
+    "eslint": false
+  },
+  "projectName": "newProject"
+}

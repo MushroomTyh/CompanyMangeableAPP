@@ -1,0 +1,55 @@
+.content {
+  padding: 0;
+  height: 100%;
+  background-color: white;
+}
+
+
+.tabbar {
+  width: 100%;
+}
+
+
+.days{
+  width :40px;
+  height:40px;
+  border-radius: 20px;
+  background-color: #77D1F1;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 16px;
+  color:#fff;
+}
+
+.weeks{
+  width :40px;
+  height:40px;
+  border-radius: 20px;
+  background-color:#FCCA67;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 16px;
+  color:#fff;
+}
+
+.months{
+  width :40px;
+  height:40px;
+  border-radius: 20px;
+  background-color: #C2B7F6;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 16px;
+  color:#fff; 
+}
+.position
+{
+  left: 50%;
+}
+
+
+
+
+/* .tabbar p{
+  color:#039be5
+} */

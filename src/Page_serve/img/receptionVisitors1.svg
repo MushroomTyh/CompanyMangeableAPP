@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>外来人员接待</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="1.39541185%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F57900" offset="0%"></stop>
+            <stop stop-color="#FC8E06" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="47.2156302%" y1="-26.8287296%" x2="45.2418636%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.349637681" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.446557971" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新员工（We码）图标" transform="translate(-141.000000, -146.000000)">
+            <g id="外来人员接待" transform="translate(141.000000, 146.000000)">
+                <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="40" height="40" rx="6.25"></rect>
+                <path d="M11.875,15.9375 C13.4283009,15.9375 14.6875,17.1966991 14.6875,18.75 L14.6875,29.6875 L9.0625,29.6875 L9.0625,18.75 C9.0625,17.1966991 10.3216991,15.9375 11.875,15.9375 Z M28.125,15.9375 C29.6783009,15.9375 30.9375,17.1966991 30.9375,18.75 L30.9375,29.6875 L25.3125,29.6875 L25.3125,18.75 C25.3125,17.1966991 26.5716991,15.9375 28.125,15.9375 Z M11.875,9.375 C13.4283009,9.375 14.6875,10.6341991 14.6875,12.1875 C14.6875,13.7408009 13.4283009,15 11.875,15 C10.3216991,15 9.0625,13.7408009 9.0625,12.1875 C9.0625,10.6341991 10.3216991,9.375 11.875,9.375 Z M28.125,9.375 C29.6783009,9.375 30.9375,10.6341991 30.9375,12.1875 C30.9375,13.7408009 29.6783009,15 28.125,15 C26.5716991,15 25.3125,13.7408009 25.3125,12.1875 C25.3125,10.6341991 26.5716991,9.375 28.125,9.375 Z" id="形状结合" fill="#FFFFFF"></path>
+                <path d="M16.7243022,15.1030281 C17.5872471,15.1030281 18.2868022,15.8025831 18.2868022,16.6655281 L18.2868022,26.7830763 C18.2868022,27.6460212 17.5872471,28.3455763 16.7243022,28.3455763 C15.8613573,28.3455763 15.1618022,27.6460212 15.1618022,26.7830763 L15.1618022,16.6655281 C15.1618022,15.8025831 15.8613573,15.1030281 16.7243022,15.1030281 Z" id="Rectangle-7-Copy" fill="url(#linearGradient-2)" transform="translate(16.724302, 21.724302) rotate(-45.000000) translate(-16.724302, -21.724302) "></path>
+                <path d="M23.5548481,15.3695825 C24.4177931,15.3695825 25.1173481,16.0691376 25.1173481,16.9320825 L25.1173481,26.0597498 C25.1173481,26.9226948 24.4177931,27.6222498 23.5548481,27.6222498 C22.6919032,27.6222498 21.9923481,26.9226948 21.9923481,26.0597498 L21.9923481,16.9320825 C21.9923481,16.0691376 22.6919032,15.3695825 23.5548481,15.3695825 Z" id="Rectangle-7-Copy-2" fill="url(#linearGradient-3)" transform="translate(23.554848, 21.495916) scale(-1, 1) rotate(-45.000000) translate(-23.554848, -21.495916) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

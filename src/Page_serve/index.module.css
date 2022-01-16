@@ -1,0 +1,183 @@
+
+.content {
+  padding: 10px;
+}
+
+.cells{
+  height: 120px;
+  margin-top: 0 !important;
+}
+
+.cell {
+  height: 100%;
+  padding: 20px 26px !important;
+}
+
+.avatars {
+  height: 80px;
+  border-radius: 50%;
+  width: 80px;
+  background: #d6b1f7;
+  color: #fff;
+  font-size: 25px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.userName {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.userCode {
+  font-size: 16px;
+}
+
+.userDept {
+  font-size: 16px;
+  color: #333;
+}
+
+.companyEmploy {
+  display: flex;
+  margin: 10px 0;
+  height: 46px;
+}
+
+.companyDesc, .employeeConduct {
+  padding: 12px 0;
+  background: #fff;
+  flex: 1;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.companyDesc {
+  margin-right: 10px;
+}
+
+.serverItem {
+  margin: 10px 0;
+  background: #fff;
+}
+
+.serverTitle {
+  font-size: 12px;
+    color: #999;
+    padding: 10px 16px 12px 16px;
+}
+
+.grids {
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 6px;
+
+}
+.grid {
+  width: 25%;
+}
+
+.gridLabel {
+  display: block;
+  color: #343745;
+  overflow: hidden;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 17px;
+  margin-top: 5px;
+  margin-bottom: 16px;
+}
+
+.grid i {
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+}
+
+.icon-server-attendance {
+  background-image: url(./img/attendance.svg);
+}
+
+.icon-server-salary {
+  background-image: url(./img/salary.svg);
+}
+
+.icon-server-businessTrip {
+  background-image: url(./img/businessTrip.svg);
+}
+
+.icon-server-serviceHotline {
+  background-image: url(./img/serviceHotline.svg);
+}
+
+.icon-server-computerInstallation {
+  background-image: url(./img/computerInstallation.svg);
+}
+
+.icon-server-campusIntroduce {
+  background-image: url(./img/campusIntroduce.svg);
+}
+
+.icon-server-employee {
+  background-image: url(./img/employee.svg);
+}
+
+.icon-server-busInformation {
+  background-image: url(./img/busInformation.svg);
+}
+
+.icon-server-nearbyTraffic {
+  background-image: url(./img/nearbyTraffic.svg);
+}
+
+.icon-server-propertyService {
+  background-image: url(./img/propertyService.svg);
+}
+
+.icon-server-receptionVisitors {
+  background-image: url(./img/receptionVisitors.svg);
+}
+
+.icon-server-socialSecurity {
+  background-image: url(./img/socialSecurity.svg);
+}
+
+.icon-server-certificate {
+  background-image: url(./img/certificate.svg);
+}
+
+.icon-server-cardApplication {
+  background-image: url(./img/cardApplication.svg);
+}
+
+.icon-server-settles {
+  background-image: url(./img/settles.svg);
+}
+.icon-server-xuexiqiangguo {
+  background-image: url(./img/xuexiyuandi.svg);
+}
+.icon-server-xuexitong
+{
+  background-image: url(./img/xuexi.svg);
+}
+/* .icon-server-schoolnews{
+  background-image: url(./img/xinwen.svg);
+} */
+.icon-server-jinsai{
+  background-image: url(./img/jingsai.svg);
+}
+.icon-server-news{
+  background-image: url(./img/nationalnews.svg);
+}

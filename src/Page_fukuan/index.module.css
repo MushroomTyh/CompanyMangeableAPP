@@ -1,0 +1,43 @@
+
+.workReport{
+  padding: 0;
+  height: 100%;
+  background-color: white;
+}
+.color1{
+  background-color: rgb(0, 255, 136);
+  margin-bottom: 100px;
+}
+.color2{
+  background-color: rgb(0, 140, 255);
+  margin-bottom: 100px;
+}
+.color3{
+  background-color: rgb(255, 0, 170);
+  margin-bottom: 100px;
+}
+.workReport .listLoader {
+  overflow-y: scroll;
+}
+.workReport .scanButton {
+  display: block;
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #0D94FF;
+  right: 28%;
+  bottom: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scanIcon {
+  display: block;
+  background: url(./TO_DELETE/img/saoesao.svg) no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+  
+}

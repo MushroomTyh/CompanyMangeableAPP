@@ -1,0 +1,161 @@
+
+.workReport{
+  padding: 0;
+  height: 100%;
+  background-color: white;
+}
+.color1{
+  background-color: rgb(0, 255, 136);
+  margin-bottom: 100px;
+}
+.color2{
+  background-color: rgb(0, 140, 255);
+  margin-bottom: 100px;
+}
+.color3{
+  background-color: rgb(255, 0, 170);
+  margin-bottom: 100px;
+}
+.form {
+  margin-top: 0 !important;
+}
+
+.rechargeRecord {
+  border: 1px solid #0D94FF;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #0D94FF;
+  padding: 0 3px;
+}
+
+.amountList {
+  display: flex;
+  margin: 15px 0 0 15px;
+  flex-wrap: wrap;
+}
+
+.amount {
+  border: 1px solid #DDDDDD;
+  margin: 0 15px 15px 0;
+  width: calc((100% - 45px)/3);
+  text-align: center;
+  padding: 10px 0;
+}
+
+.submit {
+  margin-top: 1.25em;
+  width: calc(100% - 32px) !important;
+}
+
+.disabled {
+  color: #999;
+  border-color: #999;
+  pointer-events: none;
+}
+
+.selected {
+  color: #0D94FF;
+  border-color: #0D94FF;
+}
+
+.weui-popup {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  transform: translate(0, 100%);
+  backface-visibility: hidden;
+  z-index: 5000;
+  width: 100%;
+  background-color: #F9F9F9;
+  transition: transform .3s;
+  color: #333333;
+}
+
+.weui-popup_toggle{
+  transform: translate(0, 0);
+}
+
+.popTitle {
+  position: relative;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  line-height: 2.5em;
+  background-color: #fff;
+}
+
+.popClose {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+  transform: translateY(-50%);
+  background-image: url(./img/close_line.svg);
+}
+
+.popContent {
+  text-align: center;
+  padding: 24px 0;
+  background-color: #fff;
+}
+
+.popAmount {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.popAddress {
+  color: #999999;
+}
+
+.payMethod {
+  color: #333;
+  background-color: #fff;
+  margin-bottom: 0 !important;
+}
+
+.selectedPay {
+  background-image: url(./img/checkbox_line.svg);
+  width: 24px;
+  height: 24px;
+}
+
+.checked {
+  background-image: url(./img/checkbox_checked_fill.svg);
+}
+
+.cellsPay {
+  margin-top: 0 !important;
+}
+
+.cellPay {
+  margin-left: 16px;
+  border-bottom: 1px solid #ddd;
+  padding-left: 0 !important;
+}
+
+.cellPay::before {
+  border-top: none;
+}
+
+.pay {
+  width: calc(100% - 32px) !important;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.payIcon {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 14px;
+}
+
+.weixinIcon {
+  background-image: url(./img/weixin.svg);
+}
+
+.zfbIcon {
+  background-image: url(./img/zhifubao.svg);
+}

@@ -1,0 +1,45 @@
+{
+  "appName" : "服务",
+  "welcome": "React 模板!",
+  "getStart" : "在开始前，",
+  "edit": "编辑",
+  "saveReload": "并保存将重新加载修改结果。",
+
+
+
+
+
+  
+  "oldPwd":"密码",
+  "newPwd":"新密码",
+  "surePwd":"确认密码",
+  "sure":"确定",
+  "noMatch":"新密码两次输入不一致，请重新输入",
+  "errorPwd":"密码输入不正确，请重新输入",
+  "reLogin":"重新登录",
+  "changePwd":"修改密码",
+  "success":"提交成功",
+  "oldname":"学号",
+  "errorname":"学号错误",
+  "errornamepwd":"学号密码错误",
+  "regclass":"学院班级",
+  "regstudentid":"学号",
+  "regname":"姓名",
+"regpassword":"密码",
+"appName1" : "生活缴费",
+  "dormitory": "宿舍",
+  "choseDormitory": "请选择宿舍",
+  "amount": "余额",
+  "choseAmount": "选择宿舍后显示",
+  "rechargeRecord": "充值记录",
+  "recharge": "充值",
+  "payDesc": "付款详情",
+  "dormitoryFee": "宿舍费",
+  "payMethod": "付款方式",
+  "weinxipay": "微信支付",
+  "zhifubaopay": "支付宝支付",
+  "paySuccess": "支付成功",
+  "dormPay": "宿舍费充值",
+  "viewRecords": "查看充值记录",
+  "continueRecharge": "继续充值"
+}

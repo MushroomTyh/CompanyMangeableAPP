@@ -1,0 +1,16 @@
+// Workspace settings
+{
+  // The following will hide the js and map files in the editor
+  "files.exclude": {
+    ".vscode": true,
+    "build": true,
+    ".eslintrc": true,
+    "src/i18n.js": true,
+    "src/routes.js": true,
+    "src/entry.js": true,
+    "src/App.js": true,
+    ".gitignore": true,
+    "wecode.json": true
+  },
+  "editor.renderIndentGuides": true
+}

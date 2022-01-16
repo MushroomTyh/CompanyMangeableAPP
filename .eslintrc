@@ -1,0 +1,94 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "extends": "eslint:recommended",
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly",
+    "$": true,
+    "HWH5": true,
+    "Zepto": true,
+    "jQuery": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "legacyDecorators": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "none",
+        "ignoreRestSiblings": false
+      }
+    ],
+    "arrow-parens": 0,
+    "comma-dangle": 0,
+    "camelcase": 1,
+    "eqeqeq": [
+      1,
+      "smart"
+    ],
+    "no-array-constructor": 1,
+    "no-caller": 1,
+    "no-cond-assign": [
+      1,
+      "except-parens"
+    ],
+    "no-console": 0,
+    "no-control-regex": 1,
+    "no-debugger": 1,
+    "no-eval": 2,
+    "no-extend-native": 1,
+    "no-loop-func": 1,
+    "no-new-object": 0,
+    "no-new-wrappers": 1,
+    "no-script-url": 1,
+    "no-use-before-define": [
+      "warn",
+      {
+        "functions": false,
+        "classes": false,
+        "variables": false,
+      },
+    ],
+    "no-with": 1,
+    "no-underscore-dangle": 0,
+    "no-plusplus": 1,
+    "class-methods-use-this": 0,
+    "import/default": 0,
+    "import/no-duplicates": 0,
+    "import/named": 0,
+    "import/namespace": 0,
+    "import/no-unresolved": 0,
+    "import/no-named-as-default": 0,
+    "import/no-named-as-default-member": 0,
+    "import/newline-after-import": 0,
+    "import/no-mutable-exports": 0,
+    "import/no-absolute-path": 0,
+    "import/no-dynamic-require": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-amd": 0,
+    "import/first": 0,
+    "import/extensions": 0,
+    "import/prefer-default-export": 0,
+    "import/no-webpack-loader-syntax": 0,
+    "import/no-named-default": 0,
+    "linebreak-style": 0
+  }
+}
